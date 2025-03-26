@@ -57,4 +57,3 @@ This mini-project was completed in under one week, including configuration, exec
  
 Outcome:
 This project ensured that only clean and usable data flowed into subsequent analysis steps, improving data accuracy, reliability, and decision-making based on business license records. It also helped create a repeatable framework for quality checks on similar structured datasets.
-
