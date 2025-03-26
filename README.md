@@ -5,8 +5,7 @@ Project Overview:
 This project focused on developing an automated data quality workflow to assess and validate business license datasets using AWS Glue Studio. The objective was to streamline the data validation process by separating clean records from flawed ones and storing them in designated S3 locations for further use or review.
  
 Project Background:
-<img width="452" alt="image" src="https://github.com/user-attachments/assets/1978e797-bbe5-491d-8c78-e476834ecce0" />
-
+[https://github.com/Rizwan2319066/data-quality-control-rizwan/commit/432d0b6ac7b21f38ebb1dab3be571b743ede1713]
  
 As part of a broader data analysis initiative, it became necessary to ensure the accuracy and reliability of business license records being processed from public datasets. Issues such as missing values, inconsistent formats, and inaccurate entries had been observed, which could negatively impact downstream analytics. This project introduced a structured quality check using AWS services to clean and validate the dataset efficiently.
  
@@ -22,7 +21,7 @@ Methodology:
 1.	Input Data Connection
 o	Connected to an S3 bucket (license-status) as the source containing raw license data.
 2.	Transformation & Quality Check
- <img width="452" alt="image" src="https://github.com/user-attachments/assets/c23e5650-7fec-4c56-a171-8a1663ec02c5" />
+ [https://github.com/Rizwan2319066/data-quality-control-rizwan/commit/432d0b6ac7b21f38ebb1dab3be571b743ede1713]
 
 o	Applied transformations to check quality conditions (e.g., null checks, formatting).
 o	Used conditional logic to split valid and invalid records using the Glue Studio “Conditional Router” node.
@@ -30,10 +29,9 @@ o	Used conditional logic to split valid and invalid records using the Glue Studi
 o	Applied schema mapping to align column formats for both output streams.
 4.	Final Output
  
- <img width="452" alt="image" src="https://github.com/user-attachments/assets/d6f187a4-7035-4dc7-9b79-84a77463ded0" />
+[https://github.com/Rizwan2319066/data-quality-control-rizwan/commit/432d0b6ac7b21f38ebb1dab3be571b743ede1713]
 
-
- <img width="452" alt="image" src="https://github.com/user-attachments/assets/ab6c5c85-397d-4a56-b599-1094ec2880c1" />
+[https://github.com/Rizwan2319066/data-quality-control-rizwan/commit/432d0b6ac7b21f38ebb1dab3be571b743ede1713]
 
 
 o	Wrote “passed” data to the S3 path: Quality Check/passed/
